@@ -1,0 +1,1 @@
+// main.cu will run all benchmarks and be in charge or handling logging the results
