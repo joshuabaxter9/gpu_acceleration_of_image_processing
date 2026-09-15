@@ -1,1 +1,3 @@
 *.o
+main_test
+results.csv
