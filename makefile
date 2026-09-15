@@ -12,7 +12,7 @@ SRCS      := main.cu \
              gpu_implementation/box_blur.cu \
              gpu_implementation/2d_gaussian_blur.cu \
              gpu_implementation/median_filter.cu \
-             gpu_implementation/sps_filter.cu \
+             gpu_implementation/sobel_filter.cu \
              gpu_implementation/unsharp_masking.cu
 HDRS      := cpu_implementation/cpu_filters.h \
              gpu_implementation/gpu_filters.h \

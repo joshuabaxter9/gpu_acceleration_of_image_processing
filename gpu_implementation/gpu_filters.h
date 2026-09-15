@@ -52,7 +52,7 @@ void box3x3_gpu(GpuBuffers& g);     // box_blur.cu
 void box5x5_gpu(GpuBuffers& g);     // box_blur.cu
 void gauss5x5_gpu(GpuBuffers& g);   // 2d_gaussian_blur.cu
 void median3x3_gpu(GpuBuffers& g);  // median_filter.cu
-void sobel3x3_gpu(GpuBuffers& g);   // sps_filter.cu
+void sobel3x3_gpu(GpuBuffers& g);   // sobel_filter.cu
 void unsharp_gpu(GpuBuffers& g);    // unsharp_masking.cu
 
 // Host-side launcher for the Gaussian kernel, shared with unsharp masking.
