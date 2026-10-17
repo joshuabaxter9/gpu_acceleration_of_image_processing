@@ -1,3 +1,17 @@
 *.o
+
+# built programs
 main_test
+compare_test
+
+# benchmark output
 results.csv
+results[0-9]*.csv
+summary_results.csv
+comparison.csv
+
+# saved photos
+saved_photos/
+
+# local python environment
+.venv/
